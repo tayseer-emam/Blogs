@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "tajawal-regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/tajawal-reg.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tajawal-medium";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/tajawal-md.woff2") format("woff2");
+  font-display: swap;
+}
+
+$font-family-base: "tajawal-regular";
+$font-family-base-heading: "tajawal-medium";
